@@ -19,6 +19,7 @@ import pkg_resources
 
 setup_requires = []
 
+
 if 'test' in sys.argv:
     setup_requires.append('pytest')
 
